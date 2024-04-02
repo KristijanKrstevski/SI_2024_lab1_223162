@@ -1,0 +1,91 @@
+1. Kreirav profil na git
+2. Ja promeniv(update) imeto na grankata od main vo master
+3.Otkakov kreirav nov repositorium so komandata "cd pristapiv do Desktop i so komandata mkdir kreirav file so ime SI_2024_lab1_223162
+4. mkdir SI_2024_lab1_223162
+5.git init
+6. 
+$ echo "Kristijan Krstevski 223162" >> README.md
+git add .
+$ git commit -m "Initial commit"
+
+7.
+otkako gi instalirav gi izvrshiv komandite:
+git add .
+git commit -m "Add starter code."
+
+8.
+git remote add origin  https://github.com/KristijanKrstevski/SI_2024_lab1_223162.git
+git push -u origin master
+
+
+9.
+git checkout -b bug1 master
+git checkout -b bug2 master
+
+10.
+git checkout bug1
+
+11. otkako ja popraviv greshkata
+git add .
+git $ git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12.
+git checkout bug2
+
+13
+git add .
+git $ git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14.
+git checkout bug1
+
+15.
+git add .
+git commit -m "Call method filterOddLengthStrings in main class"
+
+16.
+git checkout bug2
+
+17.
+git add .
+git commit -m "Call method makeBigStringFrom in main class"
+
+18.
+git push origin --all
+
+19.
+git chechout master
+
+20.
+git merge bug1
+
+21. git push origin -all
+
+22.
+git chechout bug2
+
+23.
+git rebase master
+git rebase --continue
+
+24.
+git chechout bug2
+
+25.
+git merge bug2
+
+26.
+27. tuka za da gi sinhroniram site granki upotrebiv 
+git push origin bug2 --force
+za grankata bug2
+
+28.
+git log
+git add .
+git commit -m "Final commit"
+
+29.
+git pushh origin --all
+
+
+

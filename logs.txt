@@ -1,0 +1,25 @@
+
+$ git log 
+commit 72f3fb9278f94833bf5872b8ee7bfd3483fb7d04 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Kristijan <kristijan.krstevski@students.finki.ukim.mk>
+Date:   Wed Mar 27 14:04:53 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit e9a73613901f71bf287cad2683859678d63a755f
+Author: Kristijan <kristijan.krstevski@students.finki.ukim.mk>
+Date:   Wed Mar 27 12:35:08 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit b5ba0da7cfe9a009f1431e43c76cf79c47805800 (origin/bug1, bug1)
+Author: Kristijan <kristijan.krstevski@students.finki.ukim.mk>
+Date:   Wed Mar 27 13:44:18 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 9fe41066a82b8ca8716e1dad46274fcfa225365c
+Author: Kristijan <kristijan.krstevski@students.finki.ukim.mk>
+Date:   Wed Mar 27 10:59:46 2024 +0100
+
+
